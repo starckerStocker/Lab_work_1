@@ -1,0 +1,8 @@
+VAR
+	fb_motor_1 : FB_Motor; (*DCM model*)
+	fb_motor_2 : FB_Motor; (*DCM model*)
+	fb_regulator : FB_Regulator; (*Regulator model*)
+	enable : BOOL; (*Integral gain of the regulator*)
+	counter : REAL; (*Counter*)
+	speed : REAL; (*Speed setpoint*)
+END_VAR
